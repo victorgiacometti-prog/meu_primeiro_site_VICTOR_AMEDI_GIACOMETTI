@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades Listas</title>
+    <style>
+        table{
+            width: 100%;
+            border: 2px solid #008b8b;
+        }
+        th,tr,td{
+            border: 2px solid #008b8b;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<!-- <ul> -> lista não ordenada // <ol> -> Lista Ordenada // <table> <tr> <th> <td> // <dl> <dt> <dd> -->
+
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2><i>Listas Ordenadas</i></h2>
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os Dentes</li>
+        <li>Ir para a Faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o SENAI</li>
+        <li>Voltar para a Casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+
+    <h2><i>Listas Não Odenadas</i></h2>
+    <!-- Square -> Quadrado na lista -->
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+
+    <h2><i>Linguagens de Programação</i></h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+
+        <li>Novas</li>
+        <!-- Comerçar a lista a partir do e (Letra 5 que é o E) -->
+        <ol type="a" start="5">
+        <li>C#</li>
+        <li>Python</li>
+        <li>Java Script</li>
+        <li>Java</li>
+       </ol>
+    </ol>
+
+    <h2><i>Lista de Definições</i></h2>
+    <dl>
+        <dt><b>HTML</b></dt>
+            <dd>- Linguagem de marcação para a criação do conteúdo de um site.</dd>
+            <dt><b>CSS</b></dt>
+                <dd>- Linguagem de Marcação para a criação do desgin de um site</dd>
+            </dd>
+            <dt><b>JavaScript</b></dt>
+            <dd>- Linguagem de programação para criação de interatividade de um site.</dd>
+    </dl>
+    <h2><i>Listas de Jogos</i></h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bross</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>Mega Drive</li>
+        <ul type="square">
+            <li>Sonic</li>
+            <ul type="circle">
+                 <li>Sonic 1</li>
+                  <li>Sonic 3</li>
+            </ul>
+        </ul>
+        <li>Streets of Rage 2</li>
+        <ul>
+            <li>SNES</li>
+            <ul type="square">
+                <li>Mario</li>
+                <li>Donkey Kong</li>
+            </ul>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy VII</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+
+    <h2><i>Tabela de Informações dos Jogos</i></h2>
+    <table>
+        <tr>
+            <th>Jogos</th>
+            <th>Informações</th>
+            <th>Imagem</th>
+        </tr>
+
+        <tr>
+            <td>River Raid</td>
+            <td>
+                <ul>
+                <li>Ano: 1982</li>
+                <li>Plataforma: Atari</li>
+                </ul>
+    
+            </td>
+            <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyYkAUraS7b5knj3vNBZ8AS7Yhq5gtyT321AjjnXZuy8ERUlWmGLPJfTTcLE6qyQyrvGoTONgzFNQOk9geoeK2vl_ifXADz48BF16UGw&s" alt="River Raid" width="100"> </td>
+
+        </tr>
+        <tr>
+            <td>Mario Bros</td>
+            <td>
+                <ul> 
+                <li>Ano: 1985</li>
+                <li>Plataforma: NES</li>
+                </ul>
+            </td>
+            <td><img src="https://4.bp.blogspot.com/-5nvH4G17ttY/VaLT-XwSCkI/AAAAAAAAOGU/craaip7zy20/s1600/mario%2B1.jpg" alt="Mario Bros" width="100"></td>    
+        </tr>
+
+        <tr>
+            <td>Sonic</td>
+            <td>
+                <ul>
+                    <li>Ano: 1991</li>
+                    <li>Plataforma: Mega Drive</li>
+                </ul>
+            </td>
+            <td><img src="https://s2.glbimg.com/4NNpzUEJFBDpMVO5isagjYYuw6k=/0x0:1280x720/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/Z/N/eJacbQThSAlwvfBgYhfw/sonic-hedgehog-1991.jpg" alt="Sonic" width="100"></td>
+        </tr>
+
+        <tr>
+            <td>Donkey Kong</td>
+            <td>
+                <ul>
+                    <li>Ano: 1981</li>
+                    <li>Plataforma: SNES</li>
+                </ul>
+            </td>
+            <td><img src="https://1.bp.blogspot.com/-X-ajrcnoAA0/WVpxawf4xWI/AAAAAAAADRo/IZlbY0hlt2c0_7kWhjLoRGTZ6Ecst6DmwCLcBGAs/s1600/Donkey%2BKong%2BCountry%2B-%2Bsnes-forever.blogspot.com%2B-20170703-133032.png" alt="Donkey Kong" width="100"></td>
+        </tr>
+
+        <tr>
+            <td>Final Fantasy VI</td>
+            <td>
+                <ul>
+                    <li>Ano: 1997</li>
+                    <li>Plataforma: PlayStation</li>
+                </ul>
+            </td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/c/c2/Final_Fantasy_VII_Box_Art.jpg" alt="Final Fantasy VI" width="100"></td>
+        </tr>
+
+        <tr>
+            <td>GTA VI</td>
+            <td>
+                <ul>
+                    <li>Ano: 2026</li>
+                    <li>Plataforma: Multi Console</li>
+                </ul>
+            </td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvq7AKK3swjc8cHPPG1INvqVsQDligT_hAAJSY46cIAkrg9clV9wl0K_zE&s=10" alt="GTA VI" width="100"></td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
